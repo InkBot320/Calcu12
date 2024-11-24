@@ -1,0 +1,67 @@
+.Logo{
+    text-align: justify;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(https://th.bing.com/th/id/R.cb9ac3003644be412b9d46b94941a88a?rik=xJoRlh4DcrEpDA&riu=http%3a%2f%2fjpl.nasa.gov%2fspaceimages%2fimages%2flargesize%2fPIA11796_hires.jpg&ehk=mg4sIdmsZV71znWTZtRj7IOTvxMOJbEzLy23x%2fEH8Is%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(25, 48, 48);
+}
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 36, 36);
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+  width: 100%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+  background-color: rgb(25, 41, 41);
+  color: white;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9.5px;
+    padding: 25;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(132, 173, 143);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(102, 134, 110);
+}
+button:active{
+    background-color: rgb(135, 179, 146);
+}
+.operator-btn{
+   background-color: rgb(78, 130, 91);
+}
+.operator-btn:hover{
+   background-color: rgb(64, 106, 74);
+}
+.operator-btn:active{
+    background-color:  rgb(93, 145, 106);
+ }
